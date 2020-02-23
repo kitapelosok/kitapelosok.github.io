@@ -1,0 +1,650 @@
+/*!
+ * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue.woff2') format('woff2'),
+      url('../fonts/HelveticaNeue.woff') format('woff'),
+      url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Helvetica Neue';
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: #fed136;
+}
+
+a:hover {
+  color: #fec503;
+}
+
+.text-primary {
+  color: #fed136 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.page-section {
+  padding: 100px 0;
+}
+
+.page-section h2.section-heading {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 1px;
+
+  color: #232D42;
+}
+
+.page-section h3.section-subheading {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+
+  color: #646C7D;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+::-moz-selection {
+  background: #fed136;
+  text-shadow: none;
+}
+
+::selection {
+  background: #fed136;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+.btn {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 0.5px;
+
+  color: #FFFFFF;
+
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background: #EE6949;
+  border-color: #EE6949;
+  border-radius: 10px;
+}
+
+.btn-navbar {
+  width: 200px;
+  height: 64px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+#mainNav {
+  background-color: rgb(219, 238, 245);
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #fed136;
+}
+
+#mainNav .navbar-brand {
+  color: #fed136;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+#mainNav .navbar-nav .nav-item {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 0.5px;
+
+  color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #256A81;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+header.masthead {
+  text-align: left;
+  color: white;
+  background-image: url("../img/header-bg.jpeg");
+  /* paralax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  /* static */
+  /* background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5; */
+}
+
+/* TODO: responsive */
+header.masthead .intro-text {
+  padding-top: 400px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+
+header.masthead .intro-text .intro-subtitle {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+  letter-spacing: 0.5px;
+
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 595px;
+    padding-bottom: 250px;
+  }
+  
+  header.masthead .intro-text .intro-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 115px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+  }
+
+  header.masthead .intro-text .intro-subtitle {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+#program .program-card {
+  /* width: 440px; */
+  height: 296px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+#program .program-card:hover {
+  box-shadow: 0px 25px 50px rgba(172, 67, 42, 0.08);
+}
+
+#program .program-card-row {
+  margin-top: 50px;
+}
+
+#program .program-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 50px;
+
+  background: #D3E1E6;
+  border-radius: 20px;
+}
+
+#program .program-icon i{
+  margin-top: 18.533px;
+  font-size: 40px;
+  color: #256A81;
+}
+
+#program .program-card-title {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+#program .program-card-subtitle {
+  font-family: Muli;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #000000;
+}
+
+#about .section-subheading {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 54px;
+}
+
+#about .team-photo {
+  width: 596px;
+  height: 505px;
+  background-image: url("../img/header-bg.jpeg");
+  background-size: cover;
+  background-position: center top;
+}
+
+#about .read-more-link {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: 0.5px;
+  color: #EE6949;
+}
+
+#visi-misi .logo {
+  background: url(../img/ampersand.svg);
+  width: 191px;
+  height: 230px;
+}
+
+#visi-misi .logo .text-visi {
+  width: 82px;
+  height: 56px;
+  padding-top: 75px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #232D42;
+}
+
+#visi-misi .logo .text-misi {
+  width: 93px;
+  height: 56px;
+  padding-top: 82px;
+  padding-left: 82px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #232D42;
+}
+
+#visi-misi .section-heading {
+  width: 793px;
+  height: 80px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+  letter-spacing: 0.5px;
+
+  color: #000000;
+}
+
+#visi-misi .content {
+  padding-top: 50px;
+}
+
+#visi-misi .content h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  padding-top: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.5px;
+
+  color: #256A81;
+}
+
+#visi-misi .content {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+
+  color: #646C7D;
+}
+
+#visi-misi ul {
+  list-style: none; /* Remove default bullets */
+}
+
+#visi-misi ul li {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#visi-misi ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #EE6949; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+}
+
+#dalam-angka .section-heading {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  color: #232D42;
+}
+
+#dalam-angka .content {
+  margin-top: 100px;
+}
+
+#dalam-angka .number {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 120px;
+  letter-spacing: 1px;
+  
+
+  color: #EE6949;
+}
+
+#dalam-angka .info {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #646C7D;
+}
+
+#team .content {
+  margin-top:100px;
+}
+
+#team .content img {
+  width: 249px;
+  height: 249px;
+  object-fit: cover;
+}
+
+#team .name {
+  margin-top: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #256A81;
+}
+
+#team .title {
+  margin-top: 20px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+
+  text-align: center;
+
+  color: #646C7D;
+}
+
+#team .content .row {
+  margin-bottom: 100px;
+}
+
+section#contact {
+  background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#contact .section-heading {
+  color: #fff;
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+
+section#contact :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+
+section#contact ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+
+section#contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+
+.footer {
+  color: white;
+  background-color: #256A81;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+}
+
+.footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
