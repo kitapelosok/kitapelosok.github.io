@@ -1,0 +1,185 @@
+@media (min-width: 992px) {
+  /* general */
+  .page-section h2.section-heading {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 1px;
+
+    color: #232d42;
+  }
+
+  .page-section h3.section-subheading {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    color: #646c7d;
+  }
+
+  /* navbar */
+
+  #mainNav {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    height: 85px;
+  }
+  #mainNav .navbar-nav .nav-item {
+    padding: 40px 40px !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #256a81;
+  }
+
+  /* header */
+  .main-header {
+    background-color: #256a81;
+    height: 850px;
+    margin-top: -85px;
+  }
+
+  .main-header .content .intro-text {
+    padding-top: 327px;
+    padding-bottom: 146px;
+  }
+
+  .main-header .content .intro-text .intro-heading {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0.5px;
+
+    color: #ffffff;
+  }
+
+  .main-header .content .intro-text .intro-subtitle {
+    margin-top: 20px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.5px;
+
+    color: #ffffff;
+  }
+
+  .main-header-bg {
+    box-shadow: 0px 30px 120px rgba(37, 106, 129, 0.06);
+    border-radius: 0px 0px 0px 200px;
+    min-height: 900px;
+  }
+
+  .main-header .subscribe {
+    margin-top: 50px;
+  }
+
+  .main-header .email-form {
+    height: 64px;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+
+  /* program */
+  #program .program-card {
+    height: 296px;
+    background: #ffffff;
+  }
+
+  #program .program-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 50px;
+
+    background: #d3e1e6;
+    border-radius: 20px;
+  }
+
+  #program .program-icon i {
+    margin-top: 18.533px;
+    font-size: 40px;
+    color: #256a81;
+  }
+
+  #program .program-card-title {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+
+    color: #000000;
+  }
+
+  #program .program-card-subtitle {
+    font-family: Muli;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    color: #000000;
+  }
+
+  /* about */
+  #about .section-subheading {
+    text-align: left;
+  }
+
+  #about .team-photo {
+    width: 636px;
+    height: 505px;
+
+    background-image: url("../img/dummy-bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    border-radius: 20px;
+  }
+
+  #about .read-more-link {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: 0.5px;
+    color: #ee6949;
+  }
+
+  .footer .container {
+    margin-top: 103px;
+  }
+
+  .footer-logo {
+    margin-top: -20px;
+    background-image: url("../img/logos/kitapelosok-h.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 256.47px;
+    height: 100px;
+  }
+}
