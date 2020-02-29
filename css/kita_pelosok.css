@@ -33,36 +33,6 @@ h6 {
   font-weight: 700;
 }
 
-.page-section {
-  padding-top: 200px;
-}
-
-.page-section h2.section-heading {
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  /* identical to box height */
-
-  letter-spacing: 1px;
-
-  color: #232d42;
-}
-
-.page-section h3.section-subheading {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  text-align: center;
-
-  color: #646c7d;
-}
-
 img::-moz-selection {
   background: transparent;
 }
@@ -117,71 +87,7 @@ img::-moz-selection {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
-/* mobile navbar */
-#mainNav {
-  height: 58.57px;
-}
-
-#mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: white;
-}
-
-#mainNav .navbar-nav .nav-item {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.5px;
-
-  color: #ffffff;
-}
-
-#mainNav.navbar-shrink {
-  background-color: #256a81;
-}
-
 /* small screen */
-#program .program-card {
-  height: 191px;
-  background: #ffffff;
-  margin-bottom: 50px;
-}
-
-#program .program-card:hover {
-  box-shadow: 0px 25px 50px rgba(172, 67, 42, 0.08);
-}
-
-#program .program-card-row {
-  margin-top: 50px;
-}
-
-#program .program-card-title {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.5px;
-
-  color: #000000;
-}
 
 #visi-misi .logo {
   background: url(../img/ampersand.svg);
