@@ -39,17 +39,33 @@
     background-color: transparent;
     height: 85px;
   }
+
   #mainNav .navbar-nav .nav-item {
     padding: 40px 40px !important;
   }
+
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #256a81;
   }
+
   #mainNav .navbar-brand-img {
     width: 218px;
     height: 85px;
+  }
+
+  #mainNav a.nav-link {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+
+    color: #ffffff;
   }
 
   /* header */
@@ -110,6 +126,11 @@
   }
 
   /* program */
+
+  #program .program-card-row {
+    margin-top: 50px;
+  }
+
   #program .program-card {
     height: 296px;
     background: #ffffff;
