@@ -7,10 +7,11 @@
   <meta name="description" content="Organisasi nirlaba yang merupakan wadah untuk menghubungkan
     relawan pengajar dengan sekolah di daerah 3T melalui
     pemanfaatan teknologi dan informasi" />
+  <meta name="Keywords" content="relawan, pelosok, pengajar, sekolah, daerah">
   <meta name="author" content="info@kitapelosok.org" />
   <meta name="theme-color" content="#256a81" />
 
-  <title>KitaPelosok</title>
+  <title>KitaPelosok - Home</title>
   <link rel="icon" type="image/png" href="img/favicon.ico" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -21,9 +22,7 @@
   <link href="css/kita_pelosok.css" rel="stylesheet" />
   <link href="css/kita_pelosok_small.css" rel="stylesheet" />
   <link href="css/kita_pelosok_large.css" rel="stylesheet" />
-
-  <!-- for production -->
-  <!-- <link href="css/kita_pelosok.min.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@8.19.0/dist/sweetalert2.min.css">
 </head>
 
 <body id="page-top">
@@ -31,7 +30,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark d-flex align-items-center fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/logos/kitapelosok-h.png" alt="" class="navbar-brand-img" />
+        <img src="img/logos/kitapelosok-h-tp.png" alt="" class="navbar-brand-img" />
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -153,7 +152,7 @@
             untuk menghubungkan relawan pengajar dengan sekolah di daerah 3T
             melalui pemanfaatan teknologi dan informasi.
           </h3>
-          <a class="read-more-link" href="#">Read More </a>
+          <a class="read-more-link" href="about.html">Read More </a>
         </div>
         <div class="col-lg-6">
           <div class="team-photo"></div>
@@ -161,72 +160,6 @@
       </div>
     </div>
   </section>
-
-  <!-- <section class="page-section" id="visi-misi">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="logo">
-              <div class="text-visi">Visi</div>
-              <div class="text-misi">Misi</div>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12 col-md-12">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-heading">
-                  Our Mission to Connect, Open Resources, and Contribute to
-                  improving the quality of people in disadvantaged area in
-                  Indonesia
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h3>Visi</h3>
-                  <p>
-                    “Menjadi solusi berkelanjutan dari permasalahan kurangnya
-                    tenaga pengajar di daerah 3T dengan membangun dan
-                    mengembangkan komunitas relawan pengajar dan sekolah di
-                    daerah 3T melalui pemanfaatan teknologi dan informasi, serta
-                    memberikan kemudahan bagi masyarakat untuk bersama
-                    berkontribusi bagi pendidikan Indonesia.”
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h3>Misi</h3>
-                  <ul>
-                    <li>
-                      Menjadikan Kita Pelosok sebagai wadah terbesar di
-                      Indonesia yang menghubungkan relawan pengajar dengan
-                      sekolah di daerah 3T.
-                    </li>
-                    <li>
-                      Menjadikan Kita Pelosok sebagai sumber data terlengkap dan
-                      terakurat mengenai kondisi pendidikan di daerah 3T dengan
-                      memanfaatkan kemajuan teknologi.
-                    </li>
-                    <li>
-                      Meningkatkan angka kontribusi masyarakat Indonesia
-                      terhadap perkembangan pendidikan khususnya daerah 3T
-                    </li>
-                    <li>
-                      Mengembangkan komunitas relawan pengajar dan komunitas
-                      sekolah di daerah 3T untuk dapat berkembang bersama.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
   <!-- KitaPelosok dalam Angka -->
   <!-- check examples -->
@@ -358,15 +291,6 @@
         <div class="col-lg-6">
           <div class="footer-logo"></div>
         </div>
-        <!-- <div class="col-lg-2">
-            <a href="#">About us</a>
-          </div>
-          <div class="col-lg-2">
-            <a href="#">About us</a>
-          </div>
-          <div class="col-lg-2">
-            <a href="#">About us</a>
-          </div> -->
       </div>
       <hr>
       <div class="row">
@@ -400,10 +324,11 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
   <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
-
+  <script src="js/firebase_func.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/kitapelosok.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->

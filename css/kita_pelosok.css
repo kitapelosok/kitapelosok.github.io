@@ -89,6 +89,11 @@ img::-moz-selection {
 
 /* small screen */
 
+#visi-misi {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 #visi-misi .logo {
   background: url(../img/ampersand.svg);
   width: 191px;
@@ -125,19 +130,45 @@ img::-moz-selection {
 }
 
 #visi-misi .section-heading {
-  /* width: 793px;
-  height: 80px; */
+  margin-top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 50px;
+  /* or 167% */
 
+  letter-spacing: 0.5px;
+
+  color: #6da2b4;
+}
+
+#visi-misi #visi-misi-content {
+  margin-top: 50px;
+}
+
+#visi-misi h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 40px;
-  /* or 167% */
+  /* identical to box height, or 167% */
 
   letter-spacing: 0.5px;
 
-  color: #000000;
+  color: #256a81;
+}
+
+#visi-misi p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  color: #646c7d;
 }
 
 #visi-misi .content {
@@ -183,8 +214,6 @@ img::-moz-selection {
   color: #ee6949; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
 }
 
 #dalam-angka .section-heading {
