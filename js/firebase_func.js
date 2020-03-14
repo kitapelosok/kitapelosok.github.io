@@ -42,9 +42,10 @@ $("#subscribe-btn").click(function () {
             .catch(function (error) {
                 Swal.fire(
                     'Fail to subscribe!',
-                    error,
+                    'error on server side',
                     'error'
-                )
+                );
+                console.log(error)
             });
     }
 });
