@@ -1,206 +1,244 @@
 /* Landscape phone to portrait tablet */
+
 @media (max-width: 992px) {
-  /* general */
-  .page-section {
-    padding-top: 100px;
-  }
-
-  .page-section h2.section-heading {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-
-    letter-spacing: 1px;
-
-    color: #232d42;
-  }
-
-  .page-section h3.section-subheading {
-    font-family: Muli;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-    text-align: center;
-
-    color: #646c7d;
-  }
-
-  /* mobile navbar */
-  #mainNav {
-    /* height: 58.57px; */
-    background-color: transparent;
-  }
-
-  #mainNav .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-  }
-
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
-    font-weight: 400;
-    padding: 0.75em 0;
-    letter-spacing: 1px;
-    color: white;
-  }
-
-  #mainNav .navbar-nav .nav-item {
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: 0.5px;
-
-    color: #ffffff;
-  }
-
-  #mainNav.navbar-shrink {
-    background-color: #256a81;
-  }
-
-  #mainNav .navbar-brand-img {
-    width: 100px;
-    height: 38.57px;
-  }
-
-  .main-header {
-    background-color: #256a81;
-    height: 640px;
-    margin-top: -58.57px;
-
-    background-image: url("../img/dummy-bg.jpg");
-    box-shadow: 0px 30px 120px rgba(37, 106, 129, 0.06);
-    border-radius: 0px 0px 0px 30px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .main-header .content .intro-text {
-    padding-top: 268.43px;
-    padding-bottom: 146px;
-  }
-
-  .main-header .content .intro-text .intro-heading {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 41px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-  }
-
-  .main-header .content .intro-text .intro-subtitle {
-    margin-top: 20px;
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-  }
-
-  .main-header .subscribe {
-    margin-top: 40px;
-  }
-
-  .main-header .email-form {
-    height: 56px;
-    background: #ffffff;
-    border-radius: 10px;
-  }
-
-  #program .program-card {
-    height: 191px;
-    background: #ffffff;
-    margin-bottom: 50px;
-    border-color: transparent;
-  }
-
-  #program .program-card:hover {
-    box-shadow: 0px 25px 50px rgba(172, 67, 42, 0.08);
-  }
-
-  #program .program-card-row {
-    margin-top: 50px;
-  }
-
-  #program .program-card-title {
-    font-family: Muli;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 23px;
-    /* identical to box height */
-
-    text-align: center;
-    letter-spacing: 0.5px;
-
-    color: #000000;
-  }
-
-  #program .program-card-subtitle {
-    font-family: Muli;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-    text-align: center;
-    letter-spacing: 0.5px;
-
-    color: #000000;
-  }
-
-  #program .program-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 50px;
-
-    background: #d3e1e6;
-    border-radius: 20px;
-  }
-
-  #program .program-icon i {
-    margin-top: 18.533px;
-    font-size: 40px;
-    color: #256a81;
-  }
-
-  #about .team-photo-sm {
-    /* width: 417px; */
-    /* max-width: ; */
-    height: 353px;
-
-    background-image: url("../img/dummy-bg.jpg");
-    background-size: cover;
-    background-position: center top;
-    border-radius: 20px;
-  }
-
-  #about .section-heading {
-    text-align: left;
-    margin-top: 50px;
-  }
-
-  #about .section-subheading {
-    text-align: left;
-  }
-
-  #team ul.list-inline {
-    padding-bottom: 50px;
-  }
+    /* general */
+    .page-section {
+        padding-top: 100px;
+    }
+    .page-section h2.section-heading {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+        letter-spacing: 1px;
+        color: #232d42;
+    }
+    .page-section h3.section-subheading {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        text-align: center;
+        color: #646c7d;
+    }
+    /* mobile navbar */
+    #mainNav {
+        /* height: 58.57px; */
+        background-color: transparent;
+    }
+    #mainNav .navbar-toggler {
+        font-size: 12px;
+        right: 0;
+        padding: 13px;
+        text-transform: uppercase;
+        color: white;
+        border: 0;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: 90%;
+        font-weight: 400;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #mainNav .navbar-nav .nav-item {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+    }
+    #mainNav.navbar-shrink {
+        background-color: #256a81;
+    }
+    #mainNav .navbar-brand-img {
+        width: 100px;
+        height: 38.57px;
+    }
+    /* white navbar */
+    #whiteNav {
+        /* height: 58.57px; */
+        background-color: transparent;
+    }
+    #whiteNav .navbar-toggler {
+        font-size: 12px;
+        right: 0;
+        padding: 13px;
+        text-transform: uppercase;
+        color: black;
+        border: 0;
+    }
+    #whiteNav .navbar-nav .nav-item .nav-link {
+        font-size: 90%;
+        font-weight: 400;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #whiteNav .navbar-nav .nav-item {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+        color: black;
+    }
+    #whiteNav.navbar-shrink {
+        background-color: #256a81;
+    }
+    #whiteNav .navbar-brand-img {
+        width: 100px;
+        height: 38.57px;
+    }
+    .main-header {
+        background-color: #256a81;
+        height: 640px;
+        margin-top: -58.57px;
+        background-image: url("../img/dummy-bg.jpg");
+        box-shadow: 0px 30px 120px rgba(37, 106, 129, 0.06);
+        border-radius: 0px 0px 0px 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-header .content .intro-text {
+        padding-top: 268.43px;
+        padding-bottom: 146px;
+    }
+    .main-header .content .intro-text .intro-heading {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+    }
+    .main-header .content .intro-text .intro-subtitle {
+        margin-top: 20px;
+        font-family: Muli;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+    }
+    .main-header .subscribe {
+        margin-top: 40px;
+    }
+    .main-header .email-form {
+        height: 56px;
+        background: #ffffff;
+        border-radius: 10px;
+    }
+    #program .program-card {
+        height: 191px;
+        background: #ffffff;
+        margin-bottom: 50px;
+        border-color: transparent;
+    }
+    #program .program-card:hover {
+        box-shadow: 0px 25px 50px rgba(172, 67, 42, 0.08);
+    }
+    #program .program-card-row {
+        margin-top: 50px;
+    }
+    #program .program-card-title {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #000000;
+    }
+    #program .program-card-subtitle {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #000000;
+    }
+    #program .program-icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 50px;
+        background: #d3e1e6;
+        border-radius: 20px;
+    }
+    #program .program-icon i {
+        margin-top: 18.533px;
+        font-size: 40px;
+        color: #256a81;
+    }
+    #about .team-photo-sm {
+        /* width: 417px; */
+        /* max-width: ; */
+        height: 353px;
+        background-image: url("../img/dummy-bg.jpg");
+        background-size: cover;
+        background-position: center top;
+        border-radius: 20px;
+    }
+    #about .section-heading {
+        text-align: left;
+        margin-top: 50px;
+    }
+    #about .section-subheading {
+        text-align: left;
+    }
+    /* about page /about.html */
+    #about-page .team-photo {
+        margin-top: 50px;
+        background-image: url("../img/dummy-about.jpg");
+        max-width: 100%;
+        height: 353px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #about-page .text-about {
+        margin-top: 50px;
+        text-align: left;
+        font-family: Muli;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 178% */
+        color: #646c7d;
+    }
+    #visi-misi .section-heading {
+        margin-top: 40px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+        /* or 167% */
+        letter-spacing: 0.5px;
+        color: #6da2b4;
+    }
+    #visi-misi .logo {
+        display: none;
+    }
+    #visi-misi .section-heading {
+        margin-top: -50px;
+    }
+    #team ul.list-inline {
+        padding-bottom: 50px;
+    }
 }

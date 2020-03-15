@@ -1,27 +1,25 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../fonts/HelveticaNeue.woff2") format("woff2"),
-    url("../fonts/HelveticaNeue.woff") format("woff"),
-    url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-  overflow-x: hidden;
-  font-family: "Helvetica";
+    overflow-x: hidden;
+    font-family: "Helvetica";
 }
 
 p {
-  line-height: 1.75;
+    line-height: 1.75;
 }
 
 a {
-  color: #ee6949;
+    color: #ee6949;
 }
 
 a:hover {
-  color: #256a81;
+    color: #256a81;
 }
 
 h1,
@@ -30,357 +28,306 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 img::-moz-selection {
-  background: transparent;
+    background: transparent;
 }
 
 img::selection {
-  background: transparent;
+    background: transparent;
 }
 
 img::-moz-selection {
-  background: transparent;
+    background: transparent;
 }
 
 .btn {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
-  /* identical to box height */
-
-  letter-spacing: 0.5px;
-
-  color: #ffffff;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: 0.5px;
+    color: #ffffff;
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+    font-size: 18px;
+    padding: 20px 40px;
 }
 
 .btn-primary {
-  background: #ee6949;
-  border-color: #ee6949;
-  border-radius: 10px;
+    background: #ee6949;
+    border-color: #ee6949;
+    border-radius: 10px;
 }
 
 .btn-navbar {
-  width: 200px;
-  height: 64px;
+    width: 200px;
+    height: 64px;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: white;
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white;
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
+
 
 /* small screen */
 
 #visi-misi {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-#visi-misi .logo {
-  background: url(../img/ampersand.svg);
-  width: 191px;
-  height: 230px;
-}
-
-#visi-misi .logo .text-visi {
-  width: 82px;
-  height: 56px;
-  padding-top: 75px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-
-  color: #232d42;
-}
-
-#visi-misi .logo .text-misi {
-  width: 93px;
-  height: 56px;
-  padding-top: 82px;
-  padding-left: 82px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-
-  color: #232d42;
-}
-
-#visi-misi .section-heading {
-  margin-top: 40px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 50px;
-  /* or 167% */
-
-  letter-spacing: 0.5px;
-
-  color: #6da2b4;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #visi-misi #visi-misi-content {
-  margin-top: 50px;
+    margin-top: 50px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #646C7D;
 }
 
 #visi-misi h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 40px;
-  /* identical to box height, or 167% */
-
-  letter-spacing: 0.5px;
-
-  color: #256a81;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.5px;
+    color: #256a81;
 }
 
 #visi-misi p {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  /* or 178% */
-
-  color: #646c7d;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #646c7d;
 }
 
 #visi-misi .content {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 #visi-misi .content h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 40px;
-  padding-top: 20px;
-  /* identical to box height, or 167% */
-
-  letter-spacing: 0.5px;
-
-  color: #256a81;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    padding-top: 20px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.5px;
+    color: #256a81;
 }
 
 #visi-misi .content {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  /* or 178% */
-
-  color: #646c7d;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #646c7d;
 }
 
 #visi-misi ul {
-  list-style: none; /* Remove default bullets */
+    list-style: none;
+    /* Remove default bullets */
 }
 
 #visi-misi ul li {
-  margin-bottom: 20px;
-  text-align: justify;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 #visi-misi ul li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #ee6949; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #ee6949;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
 }
 
 #dalam-angka .section-heading {
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 55px;
-  letter-spacing: 1px;
-  text-align: center;
-
-  color: #232d42;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #232d42;
 }
 
 #dalam-angka .content {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 #dalam-angka .number {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 96px;
-  line-height: 120px;
-  letter-spacing: 1px;
-
-  color: #ee6949;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 120px;
+    letter-spacing: 1px;
+    color: #ee6949;
 }
 
 #dalam-angka .info {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
-
-  color: #646c7d;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #646c7d;
 }
 
 #team .content {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 #team .content img {
-  width: 249px;
-  height: 249px;
-  object-fit: cover;
+    width: 249px;
+    height: 249px;
+    object-fit: cover;
 }
 
 #team .name {
-  margin-top: 50px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-
-  color: #256a81;
+    margin-top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #256a81;
 }
 
 #team .title {
-  margin-top: 20px;
-  font-family: Muli;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
-  /* identical to box height, or 142% */
-
-  text-align: center;
-
-  color: #646c7d;
+    margin-top: 20px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    text-align: center;
+    color: #646c7d;
 }
 
 #team .content .row {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+    background-color: #212529;
+    background-image: url("../img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 section#contact .section-heading {
-  color: #fff;
+    color: #fff;
 }
 
 section#contact .form-group {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+    padding: 20px;
 }
 
 section#contact .form-group input.form-control {
-  height: auto;
+    height: auto;
 }
 
 section#contact .form-group textarea.form-control {
-  height: 248px;
+    height: 248px;
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
+    border-color: #fed136;
+    box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+    font-weight: 700;
+    color: #ced4da;
 }
 
 section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+    font-weight: 700;
+    color: #ced4da;
 }
 
 section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+    font-weight: 700;
+    color: #ced4da;
 }
 
 section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+    font-weight: 700;
+    color: #ced4da;
 }
 
 .footer {
-  color: white;
-  background-color: #256a81;
-  padding: 25px 0;
-  text-align: center;
+    color: white;
+    background-color: #256a81;
+    padding: 25px 0;
+    text-align: center;
 }
 
 .footer a {
-  color: white;
+    color: white;
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 50px;
-  display: block;
-  width: 50px;
-  height: 50px;
-  transition: all 0.3s;
-  color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #256a81;
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #256a81;
 }
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #ee6949;
+    background-color: #ee6949;
 }
 
 hr {
-  background-color: white;
+    background-color: white;
 }
